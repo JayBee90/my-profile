@@ -1,0 +1,96 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: black;
+	background-color: #c6cbef;
+	line-height: 1.5;
+	margin: 5px auto;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: rgb(0, 51, 141);
+	font-weight: 700;
+	line-height: 0.75;
+}
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	color: rgb(0, 51, 141);
+	font-weight: 700;
+	line-height: 0.75;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #0075f6;
+	font-weight: 700;
+	transition: color 0.3s ease
+}
+a:hover {
+  color: rgb(0, 51, 141);
+  background-color: white;
+  text-decoration: underline;
+}
+
+strong{
+	text-decoration: underline;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 750px;
+	margin: 40px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+		margin: 30px auto;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		margin: 20px auto;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 20px 40px;
+	margin: 50px auto;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.instruction-font {
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+}
+
+.btn-blue {
+	background-color: rgb(0, 51, 141);
+	color: white;
+	padding: 10px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* Custom design with id */
+
+#profilepic {
+	height: 250px;
+	border-radius: 50%;
+}
+
+#intro {
+	text-align: center;
+}
